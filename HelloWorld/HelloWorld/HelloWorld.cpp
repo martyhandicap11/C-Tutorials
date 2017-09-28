@@ -1,12 +1,18 @@
 // HelloWorld.cpp by Martin Cooney.
-
-#include "stdafx.h"
+  #include "stdafx.h"
+  #include <iostream>
 using namespace std;
 
+int main(int argc, char ** argv) // main function standard arguments included
 
-int main(int argc, char ** argv)
+								 // Note char* [] is also acceptible
 {
 	puts("Hello, World!");
-    return 0;
+
+	printf("Hello, World!\n"); //another way same result
+
+	cout << "Hello, World!\n"; // using iostream built in library
+   
+	return 0; // main function must return an argument 0 in this case means success
 }
 
